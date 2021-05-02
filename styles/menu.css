@@ -1,0 +1,217 @@
+@media (min-width: 0px) {
+  .menu-container {
+    width: 100% !important;
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
+  }
+
+  .waiting-room-container h1,
+  .rules-container h1,
+  .leaderboards-container h1 {
+    font-size: 1.2rem;
+  }
+
+  .settings-container h2,
+  .players-setter-container h2,
+  .leaderboard-container h2 {
+    font-size: 1rem;
+  }
+
+  .settings-main-components select {
+    width: 90%;
+  }
+
+  .players-setter-main-components span {
+    font-size: 1rem;
+  }
+
+  .players-setter-main-components span input {
+    width: 85.5%;
+  }
+
+  .leaderboard-main-components span {
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .menu-container {
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .settings-main-components select {
+    width: 90%;
+  }
+
+  .players-setter-main-components span input {
+    width: 80%;
+  }
+
+  .leaderboard-main-components span {
+    padding-right: 1rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-container {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu-container {
+    width: 60% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menu-container {
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.waiting-room-container,
+.rules-container,
+.leaderboards-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+.waiting-room-container h1,
+.rules-container h1,
+.leaderboards-container h1 {
+  font-weight: bold;
+  letter-spacing: 0.05rem !important;
+  padding: 1rem;
+  padding-bottom: 0rem;
+  margin: 0;
+}
+
+.waiting-room-main-components,
+.leaderboards-main-components {
+  margin: 0 !important;
+}
+
+.settings-container,
+.players-setter-container,
+.leaderboard-container {
+  padding: 1rem;
+}
+
+.settings-container h2,
+.players-setter-container h2,
+.leaderboard-container h2 {
+  font-weight: bold;
+  letter-spacing: 0.05rem !important;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  margin: 0;
+}
+
+.settings-main-components,
+.leaderboard-main-components {
+  padding-left: 2rem !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.settings-main-components label {
+  margin: 0;
+}
+
+.settings-main-components select {
+  margin-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.settings-main-components select:last-child {
+  margin-bottom: 0 !important;
+}
+
+.players-setter-main-components {
+  padding-left: 2.75rem !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.players-setter-main-components span {
+  padding: 0 0 0.25rem 0;
+}
+
+.players-setter-main-components span:last-child {
+  padding: 0;
+}
+
+.fa-minus-square {
+  color: rgb(255, 65, 54);
+  cursor: pointer;
+}
+
+.fa-minus-square:hover {
+  color: rgb(245, 55, 44);
+}
+
+.fa-plus-square {
+  color: rgb(46, 204, 64);
+  cursor: pointer;
+}
+
+.fa-plus-square:hover {
+  color: rgb(36, 194, 54);
+}
+
+.players-setter-main-components span a {
+  padding-left: 0.5rem;
+}
+
+.players-setter-main-components span input {
+  margin-left: 0.5rem;
+}
+
+.start-game-button-container {
+  padding: 1rem !important;
+}
+
+.start-game-button {
+  background-color: rgb(255, 133, 27) !important;
+  width: 80%;
+  height: 100%;
+  padding: 1rem;
+  border: none !important;
+  cursor: pointer;
+}
+
+.start-game-button:hover {
+  background-color: rgb(245, 123, 17) !important;
+}
+
+.start-game-button:focus,
+.start-game-button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.rules-main-components {
+  padding: 1rem;
+}
+
+.rules-main-components p {
+  font-size: 0.9rem;
+}
+
+.leaderboard-main-components span {
+  display: flex;
+  justify-content: space-between;
+}

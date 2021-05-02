@@ -1,0 +1,168 @@
+@media (min-width: 0px) {
+  .in-game-container {
+    width: 100% !important;
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
+    margin-bottom: 2rem;
+  }
+
+  .info-bar-container a {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    width: 5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .in-game-container {
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    width: 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .in-game-container {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    width: 4.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .in-game-container {
+    width: 70% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    width: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .in-game-container {
+    width: 60% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    width: 5.5rem;
+  }
+}
+
+.game-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  margin: 0 !important;
+}
+
+.menu-bar-container {
+  padding: 1rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.menu-bar-container button {
+  background-color: rgb(255, 133, 27) !important;
+  border: none !important;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.menu-bar-container button:last-child {
+  margin-right: 0 !important;
+}
+
+.menu-bar-container button:hover {
+  background-color: rgb(245, 123, 17) !important;
+}
+
+.menu-bar-container button:focus,
+.menu-bar-container button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.info-bar-container {
+  padding: 0.5rem 2rem 0.5rem 2rem !important;
+}
+
+.info-bar-container a {
+  color: rgb(255, 133, 27) !important;
+}
+
+.board-container,
+.players-container {
+  padding: 1rem !important;
+  margin: 0 !important;
+}
+
+.players-container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.players-container span {
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem !important;
+  border: 1px gray solid;
+  border-radius: 0.25rem;
+  background-color: rgb(250, 254, 255);
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.players-container span:hover {
+  background-color: rgba(240, 244, 245);
+}
+
+.disabled-player {
+  opacity: 0.5;
+}
+
+.selected-player {
+  background-color: rgb(255, 255, 255) !important;
+  border: 2px black solid !important;
+}
+
+.card-container {
+  padding: 0rem 0.5rem 1.25rem 0.5rem !important;
+  margin: 0 !important;
+}
+
+.card {
+  width: 7rem;
+  border: 0 !important;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.075);
+  box-shadow: inset 0px 0px 0px 1rem rgb(0, 0, 0);
+}
+
+.card-shown-in-set {
+  box-shadow: inset 0px 0px 0px 1rem rgb(150, 150, 150);
+}
+
+.card-selected {
+  transform: scale(1.075);
+  box-shadow: inset 0px 0px 0px 1rem rgb(0, 0, 0);
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SET With Friends</title>
+  <link rel="icon" href="assets/favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css">
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <link href="styles/menu.css" rel="stylesheet" type="text/css">
+  <link href="styles/game.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="d-flex flex-column min-vh-100">
+    <header class="site-header">
+      <span>
+          <a href="index.html">SET With Friends</a>
+      </span>
+    </header>
+
+    <main class="in-game-container " style="display: none;">
+      <div class="game-container row">
+        <div class="menu-bar-container col-12 d-flex">
+          <button type="button" class="quit-button btn btn-primary flex-fill">Quit</button>
+          <button type="button" class="hint-button btn btn-primary flex-fill">Hint</button>
+          <button type="button " class="show-set-button btn btn-primary flex-fill">Show Set</button>
+          <button type="button" class="plus-three-cards-button btn btn-primary flex-fill">+3 Cards</button>
+        </div>
+
+          <div class="info-bar-container col-12">
+            <a class="no-more-sets">Congratulations! No more sets left.<br></a>
+            <a class="deck-card-number">0 cards left in the Deck.<br></a>
+            <a class="session-timer">Your time is 0m 0s.<br></a>
+            <a class="turn-timer">0s left from your turn.<br></a>
+            <a class="hint"></a>
+          </div>
+
+          <div class="players-container col-xl-4 col-lg-4 col-md-5 col-sm-12 col-sx-12 row">
+
+          </div>
+
+          <div class="board-container col-xl-8 col-lg-8 col-md-7 col-sm-12 col-sx-12 row">
+
+          </div>
+      </div>
+    </main>
+  
+    <main class="menu-container">
+      <div class="waiting-room-container">
+        <h1>Waiting Room</h1>
+  
+        <div class="waiting-room-main-components row">
+          <div class="settings-container col-xl-6 col-lg-6 col-md-6 col-sm-6 col-sx-12">
+            <h2>Settings</h2>
+
+            <div class="settings-main-components">
+              <label for="game-mode-selector">Game Mode</label>
+              <select name="game-mode-selector" class="game-mode-selector form-control form-control-sm">
+                <option value="competition">Competition</option>
+                <option value="practice">Practice</option>
+              </select>
+
+              <label for="difficulty-selector">Difficulty</label>
+              <select name="difficulty-selector" class="difficulty-selector form-control form-control-sm">
+                <option value="advanced-difficulty">Advanced</option>
+                <option value="normal-difficulty">Normal</option>
+              </select>
+
+              <label for="set-finder-selector">Set Finder</label>
+              <select name="set-finder-selector" class="set-finder-selector form-control form-control-sm">
+                <option value="no-set-finder">None</option>
+                <option value="normal-set-finder">Normal</option>
+                <option value="advanced-set-finder">Advanced</option>
+              </select>
+
+              <label for="card-dealer-selector">Card Dealer</label>
+              <select name="card-dealer-selector" class="card-dealer-selector form-control form-control-sm">
+                <option value="auto-card-dealer">Auto</option>
+                <option value="manual-card-dealer">Manual</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="players-setter-container col-xl-6 col-lg-6 col-md-6 col-sm-6 col-sx-12">
+            <h2>Players</h2>
+
+            <form class="players-setter-main-components row">
+              <span class="col-12"><i class="fas fa-plus-square"></i><input autofocus class="player-name-input" placeholder="Player Name" required></input></span>
+            </form>
+          </div>
+
+          <div class="start-game-button-container col-12 d-flex justify-content-center"><button type="button" class="start-game-button btn btn-primary">Start Game</button></div>
+        </div>
+      </div>
+
+      <div class="leaderboards-container">
+        <h1>Leaderboards</h1>
+  
+        <div class="leaderboards-main-components row">
+          <div class="leaderboard-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-sx-12">
+            <h2>Normal Single Player</h2>
+
+            <div class="leaderboard-main-components single-player-normal-main-components">
+
+            </div>
+          </div>
+
+          <div class="leaderboard-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-sx-12">
+            <h2>Advanced Single Player</h2>
+
+            <div class="leaderboard-main-components single-player-advanced-main-components">
+
+            </div>
+          </div>
+
+          <div class="leaderboard-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-sx-12">
+            <h2>Normal Multiplayer</h2>
+
+            <div class="leaderboard-main-components multipalyer-normal-main-components">
+
+            </div>
+          </div>
+
+          <div class="leaderboard-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-sx-12">
+            <h2>Advanced Multiplayer</h2>
+
+            <div class="leaderboard-main-components multiplayer-advanced-main-components">
+
+            </div>
+          </div>
+
+         </div>
+      </div>
+
+      <div class="rules-container">
+        <h1>How To Play</h1>
+  
+        <div class="rules-main-components">
+          <p>Use your mouse to select SETs from the board.</p>
+
+          <p>A set consists of three cards satisfying all of these conditions:<br>
+            &nbsp;&nbsp;&bull; They all have the same number or have three different numbers.<br>
+            &nbsp;&nbsp;&bull; They all have the same symbol or have three different symbols.<br>
+            &nbsp;&nbsp;&bull; They all have the same shading or have three different shadings.<br>
+            &nbsp;&nbsp;&bull; They all have the same color or have three different colors.</p>
+          
+          <p>The rules of Set are summarized by:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;If you can sort a group of three cards <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;into "two of __ and one of __", then it is not a set.</p>
+          
+          <small>Rules taken from <a href="https://en.wikipedia.org/wiki/Set_(game)">Wikipedia</a></small> 
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer mt-auto text-center">
+      <p>Made by Zoltan Kuli</p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+  <script src="scripts/game.js"></script>
+  <script src="scripts/game-menu.js"></script>
+  <script src="scripts/menu.js"></script>
+</body>
+</html>
