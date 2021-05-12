@@ -2,11 +2,11 @@
 
 I made SET With Friends during the fall of 2020 for my second web development class.
 
-This was my biggest JavaScript project yet, and I had only been using JavaScript for a brief period. And I made some mistakes. For example, I could have organized and designed my code better.
+This was my biggest JavaScript project yet, and I had only been using JavaScript for a brief period of time. And unfortunately, I made some mistakes. For example, I could have organized and designed my code better.
 
 All that said, this project turned out great, especially considering how limited time I had to work on it.
 
-I would code for days without sleep, but in the end, it was worth it.
+I would be coding for days without sleep, but in the end, it was worth it.
 
 Playing SET With Friends is enjoyable. The code functions as intended, and the game works on different screen sizes and resolutions while also having a nice look.
 
