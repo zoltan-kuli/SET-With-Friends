@@ -6,7 +6,7 @@ This was my biggest JavaScript project yet, and I was still just learning the la
 
 However, in the end, the game turned out great. 
 
-It is enjoyable to play, the code functions as intended, and it even has a nice look.
+It is enjoyable to play, the code functions as intended, and it even has some nice graphics.
 
 What's more, it works on different screen sizes and resolutions.
 
