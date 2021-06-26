@@ -20,4 +20,4 @@ You can try out SET With Friends using [this link](https://people.inf.elte.hu/gs
 * WinSCP
 
 # Impact
-SET With Friends exceeded the requirements, and the people I showed it to enjoyed playing it.
+SET With Friends exceeded the requirements, and the people who played it found the game quite enjoyable.
