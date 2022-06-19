@@ -1,9 +1,9 @@
 # SET With Friends
-Land of the Free is my first-ever website, which I made for my Web Development II class during the fall of 2020.
+I made SET With Friends for my Web Development II class during the fall of 2020.
 
 You can try out SET With Friends using [this link](https://people.inf.elte.hu/gshkd4/pages/games/set-with-friends/).
 
-# Skills Demonstrated
+# Highlights
 * Recreated the game called SET for the browser.
 * Implemented two game modes and difficulty settings.
 * Implemented an algorithm that can find sets on the board.
@@ -16,8 +16,3 @@ You can try out SET With Friends using [this link](https://people.inf.elte.hu/gs
 * HTML
 * CSS
 * Bootstrap
-* Visual Studio Code
-* WinSCP
-
-# Impact
-SET With Friends exceeded the requirements, and anyone who played the game found it quite enjoyable.
