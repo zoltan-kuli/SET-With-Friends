@@ -1,5 +1,5 @@
 # SET With Friends
-Land of the Free was my first-ever website, which I made for my Web Development II class during the fall of 2020.
+Land of the Free is my first-ever website, which I made for my Web Development II class during the fall of 2020.
 
 You can try out SET With Friends using [this link](https://people.inf.elte.hu/gshkd4/pages/games/set-with-friends/).
 
